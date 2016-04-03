@@ -9,7 +9,6 @@ npm install
 ### Run the Application
 
 #Start the App
-
 ```
 npm start
 ```
