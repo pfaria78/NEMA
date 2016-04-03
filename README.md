@@ -1,14 +1,12 @@
 # NEMA
 This app is just really for taekwondo class, maybe one day it will evolve into something more.
 
-#Install the App
+### Install the App
 ```
 npm install
 ```
 
-### Run the Application
-
-#Start the App
+### Start the App
 ```
 npm start
 ```
