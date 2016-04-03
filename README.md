@@ -1,5 +1,6 @@
 # NEMA
 This app is just really for taekwondo class, maybe one day it will evolve into something more.
+right now the app uses xml2json to read xml files for it's data at some point I'll set up a server some place that it can read from dynamically.
 
 ### Install the App
 ```
