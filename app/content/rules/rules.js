@@ -1,5 +1,6 @@
 angular.module('nema.content.rules', [
-	'ui.router'
+	'ui.router',
+   'nema.service'
 ])
 
 .config(['$stateProvider', function($stateProvider) {
@@ -15,6 +16,10 @@ angular.module('nema.content.rules', [
     })
 }])
 
-.controller('RulesCtrl', [function() {
+.controller('RulesCtrl', ["$scope", "ContentService", function($scope, ContentService) {
+ $scope.rules = {};
 
+    ContentService.getRulesContent(function(results){
+      $scope.rules = results;
+    });
 }]);
