@@ -11,6 +11,11 @@ body a:hover{
 	text-decoration: none;
 }
 
+body h3, h4, h5, h6{
+	margin: 0px;
+	padding:0px;
+}
+
 .logo{
 	background-image: url("assets/logo.png");
 	background-repeat: no-repeat;
@@ -74,6 +79,7 @@ body a:hover{
 .search-input{
 	margin:15px 10px 0px 0px;
 	padding:0px;
+	color:#333333;
 }
 
 .search-input .form-input{
@@ -83,5 +89,28 @@ body a:hover{
 .search-input i{
 	cursor: pointer;
 	padding:5px;
-	background-color: #990000;
+	background-color: #1485CC;
+	color:#ffffff;
+}
+
+.terminology-container{
+	padding:10px;
+	margin:10px;
+}
+
+.terminology-container .section-header{
+	margin:0px 0px 0px 10px;
+}
+
+.terminology-container ul{
+	list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+.terminology-card{
+	padding:2px;
+	margin:2px 30px;
+	background-color: #400000;
+	height:40px;
 }
