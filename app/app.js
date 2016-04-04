@@ -7,7 +7,8 @@ angular.module('nema', [
   'nema.content.rules',
   'nema.content.terminology',
   'nema.content.history',
-  'nema.service'
+  'nema.service',
+  'nema.common.display'
   ])
 
 .config(['$urlRouterProvider', function($urlRouterProvider) {
