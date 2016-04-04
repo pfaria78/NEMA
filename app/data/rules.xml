@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rules>
-	<title>hello world</title>
+	<rule>Show Respect to your Master, Instructors, and higher ranks.</rule>
+	<rule>Do NOT question your Instructor's commands.</rule>
+	<rule>Do NOT speak in class unless Instructor speaks to you.</rule>
+	<rule>Train Seriously</rule>
+	<rule>Help each other.</rule>
+	<rule>Always wear school Uniform and Shirt</rule>
+	<rule>Spar with full Gear and Protection</rule>
+	<rule>Keep your Uniform and Shirt clean (white must be white)</rule>
+	<rule>Keep our School clean</rule>
+	<rule>Trim finger nails and toe nails short</rule>
+	<rule>Tie Long hair</rule>
+	<rule>No Jewelry of any kind</rule>
+	<rule>Cannot train if you have contagious skin rash (like poison ivy)</rule>
+	<rule>Cannot train if are sick (like cold or flu)</rule>
 </rules>

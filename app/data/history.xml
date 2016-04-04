@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <history>
-  <items type="array">
-  	<item id="001">
-  		<name>Flag</name>
-  		<korean-name>Kukki</korean-name>
-  	</item>
-  </items>
+	<fact>Taekwondo is Korean originated martial arts, in translation it means "The way of the hand and the foot".</fact>
+	<fact>Taekwondo name was choosen in 1955</fact>
+	<fact>Taekwondo debuted as a demo sport in 1988 in Seoul-Korea Olympic games and in 1992 Barcelona-Spain, but still was NOT part of 1996 Atlanta Olympic games.</fact>
+	<fact>Taekwondo became an Olympic Medal Sport in 2000 in Sydney-Australia, and Continued in 2004 Athens-Greece, in 2008 Beijeng-China and to the present...</fact>
+	<fact>Our Taekwondo style originates from "Moo Duk Kwan" and was founded by Master Hwang Kee in 1945.</fact>
+	<fact>"Soo Bahk" or "Sobak Do" is more than 3 thousand years old and is the original style of "Moo Duk Kwan".</fact>
+	<fact>Taekwondo origins: "So Bahk Do": "Moo Duk Kwan", "Kwon Bup", "Tae Kyon".</fact>
+	<fact>"Hwa Rang Do" is Military Warriors</fact>
+	<fact>Three anicent Korean Kingdoms are Goguryeo, Baekje and Silla.</fact>
 </hsitory>
