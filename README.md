@@ -6,6 +6,8 @@ right now the app uses xml2json to read xml files for it's data at some point I'
 
 ### Prerequisites
 
+you need or at least should use GIT which can be found at https://git-scm.com/
+
 We also use a number of node.js tools. You must have node.js and
 its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
 ### Install the App
