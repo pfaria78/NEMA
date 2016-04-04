@@ -1,1 +1,27 @@
-<strong>Terminology</strong>
+<div class="terminology-container">
+<div class="row section-header">
+	<div class="pull-left">
+		<h3>Terminology</h3>
+		<span>Number of items: {{terminology.item.length}}</span>
+	</div>
+
+	<div class="search-input pull-right">
+		<span>
+			<input type="text" class="form-input" ng-model="query" placeholder="Search for Terminology, Rule, History"><i class="fa fa-search"></i>
+		</span>
+	</div>
+</div>
+
+
+<div class="row">
+	<ul>
+		<li ng-repeat="item in terminology.item | filter:query">
+			<div class='terminology-card row'>
+				<strong class="col-md-3">{{item.name}}</strong>
+				<span class="col-md-5">{{item.koreanName}}</span>
+			</div>
+		</li>
+	</ul>
+</div>
+
+</div>

@@ -1,5 +1,6 @@
 angular.module('nema.content.terminology', [
-	'ui.router'
+	'ui.router',
+  'nema.service'
 ])
 
 .config(['$stateProvider', function($stateProvider) {
@@ -16,6 +17,25 @@ angular.module('nema.content.terminology', [
       
 }])
 
-.controller('TerminologyCtrl', [function() {
+.controller('TerminologyCtrl', ["$scope","ContentService",function($scope, ContentService) {
+   $scope.terminology;
 
+   $scope.setUpUI = function(){
+    if(!$scope.terminology){
+        ContentService.getTerminologyContent(function(results){
+        $scope.terminology = results;
+
+        $scope.terminology.item.sort(function(a, b){
+          if(a.name < b.name) return -1;
+          if(a.name > b.name) return 1;
+          return 0;
+        });
+      });
+    }
+    
+   };
+
+   $scope.setUpUI();
+
+   
 }]);
