@@ -6,24 +6,43 @@ angular.module('nema.service', [
 		rulesContent:null,
 		terminologContent:null,
 
+        _convertToJSON:function(data){
+            // convert the data to JSON and provide
+            // it to the success function below
+            var x2js = new X2JS();
+            var json = x2js.xml_str2json( data );
+            return json;
+        },
+
 		getHistoryContent: function(handler){
-			$http.get(
-                    'data/history.xml',
-                    {transformResponse:function(data) {
-                      // convert the data to JSON and provide
-                      // it to the success function below
-                        var x2js = new X2JS();
-                        var json = x2js.xml_str2json( data );
-                        return json;
-                        }
-                    }
-                ).
-                success(function(data, status) {
-                    // send the converted data back
-                    // to the callback function
-                    handler(data);
-                })
-		}
+            var self = this;
+			$http.get('data/history.xml',{
+                transformResponse:function(data) {
+                   data = self._convertToJSON(data);
+                   handler(data.history);
+                }
+            })
+		},
+
+        getTerminologyContent: function(handler){
+            var self = this;
+            $http.get('data/terminology.xml',{
+                transformResponse:function(data) {
+                   data = self._convertToJSON(data);
+                   handler(data.terminology);
+                }
+            })
+        },
+
+         getRulesContent: function(handler){
+            var self = this;
+            $http.get('data/rules.xml',{
+                transformResponse:function(data) {
+                   data = self._convertToJSON(data);
+                   handler(data.rules);
+                }
+            })
+        }
 	}
 }])
 ;
