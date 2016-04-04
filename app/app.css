@@ -112,5 +112,15 @@ body h3, h4, h5, h6{
 	padding:2px;
 	margin:2px 30px;
 	background-color: #400000;
+	height:32px;
+}
+
+.terminology-header{
+	padding:2px;
+	margin:2px 30px;
+	border:2px solid #400000;
 	height:40px;
+}
+.terminology-header span{
+	font-size:22px;
 }

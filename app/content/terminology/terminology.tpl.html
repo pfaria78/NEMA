@@ -15,6 +15,13 @@
 
 <div class="row">
 	<ul>
+		<li>
+			<div class='row terminology-header'>
+				<span class="col-md-3">English</span>
+				<span class="col-md-5">Korean</span>
+			</div>
+		</li>
+		
 		<li ng-repeat="item in terminology.item | filter:query">
 			<div class='terminology-card row'>
 				<strong class="col-md-3">{{item.name}}</strong>
