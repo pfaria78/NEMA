@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terminology>
+  	<item id="001">
+  		<name>School</name>
+  		<koreanName>Dojang</koreanName>
+  	</item>
+  	<item id="002">
+  		<name>Uniform</name>
+  		<koreanName>Dobok</koreanName>
+  	</item>
+  	<item id="003">
+  		<name>Belt</name>
+  		<koreanName>DHee</koreanName>
+  	</item>
+  	<item id="004">
+  		<name>Forms</name>
+  		<koreanName>Poomse</koreanName>
+  	</item>
+  	<item id="005">
+  		<name>Flag</name>
+  		<koreanName>Kukki</koreanName>
+  	</item>
+    <item id="006">
+      <name>Bow</name>
+      <koreanName>Kyung Nae</koreanName>
+    </item>
+    <item id="007">
+      <name>Attention</name>
+      <koreanName>Cha Ryuht</koreanName>
+    </item>
+    <item id="008">
+      <name>Turn Around</name>
+      <koreanName>Dolrya Dorah</koreanName>
+    </item>
+    <item id="009">
+      <name>Relax</name>
+      <koreanName>Shiuh</koreanName>
+    </item>
+    <item id="010">
+      <name>Begin</name>
+      <koreanName>Seijak</koreanName>
+    </item>
+    <item id="011">
+      <name>Return</name>
+      <koreanName>Bah Ro</koreanName>
+    </item>
+    <item id="012">
+      <name>Yell</name>
+      <koreanName>Kihap</koreanName>
+    </item>
+    <item id="013">
+      <name>How are you?</name>
+      <koreanName>Hasimnika</koreanName>
+    </item>
+    <item id="014">
+      <name>Thank you</name>
+      <koreanName>Kahm Sa Hamnida</koreanName>
+    </item>
+    <item id="014">
+      <name>Good Bye</name>
+      <koreanName>Ahnyonghee Gasipsiyo</koreanName>
+    </item>
+    <item id="015">
+      <name>President</name>
+      <koreanName>Kwan Jan Nim</koreanName>
+    </item>
+    <item id="016">
+      <name>Master Instructor</name>
+      <koreanName>Sah Bum Nim</koreanName>
+    </item>
+    <item id="017">
+      <name>Instructor</name>
+      <koreanName>Kyo Sah Nim</koreanName>
+    </item>
+    <item id="018">
+      <name>Senior Student</name>
+      <koreanName>Sun Bae Nim</koreanName>
+    </item>
+</terminology>
