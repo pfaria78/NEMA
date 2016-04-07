@@ -16,6 +16,22 @@ body h3, h4, h5, h6{
 	padding:0px;
 }
 
+.main-text{
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.label{
+	font-size: 14px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+
+.secondary-text{
+	font-size: 18px;
+	font-weight: 100;
+}
+
 .logo{
 	background-image: url("assets/logo.png");
 	background-repeat: no-repeat;
@@ -109,10 +125,10 @@ body h3, h4, h5, h6{
 }
 
 .terminology-card{
-	padding:5px 2px 2px 2px;
-	margin:2px 30px;
-	background-color: #400000;
-	height:32px;
+	padding:8px;
+	margin:15px;
+	border: 1px solid #999999;
+	border-radius: 5px;
 }
 
 .terminology-header{

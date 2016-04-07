@@ -12,5 +12,8 @@ angular.module('nema', [
   ])
 
 .config(['$urlRouterProvider', function($urlRouterProvider) {
+	/* This next line of code basically tells the app onces it gets loaded get the terminology view/template and put it into 
+	the main view.
+	*/
   $urlRouterProvider.otherwise("/content/terminology");
 }]);

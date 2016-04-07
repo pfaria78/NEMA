@@ -1,4 +1,6 @@
+<!-- This File is really what the user is seeing when they click the Terminology button in the application. -->
 <div class="terminology-container">
+<!-- This Div is the section header so it has the Title of the page along with the filter box -->
 <div class="row section-header">
 	<div class="pull-left">
 		<h3>Terminology</h3>
@@ -7,25 +9,24 @@
 
 	<div class="search-input pull-right">
 		<span>
-			<input type="text" class="form-input" ng-model="query" placeholder="Search for Terminology, Rule, History"><i class="fa fa-search"></i>
+			<input type="text" class="form-input input-lg" ng-model="query" placeholder="Search for Terminology, Rule, History">
 		</span>
 	</div>
 </div>
 
-
+<!-- This section of the page is where the list of terms are displayed you will notice a ng-repeat and what it's doing is telling the 
+browser for every item in the terminology xml filed create a new li tag with the Div class 'terminology-card' inside of it.
+Every thing that is created inside of the <li ng-repeat="item in terminology.item | filter:query"> {{anything in between these tags will get repeated.}}</li> will get repeated for every item in the xml document, that is being read in at run time.
+-->
 <div class="row">
-	<ul>
-		<li>
-			<div class='row terminology-header'>
-				<span class="col-md-3">English</span>
-				<span class="col-md-5">Korean</span>
-			</div>
-		</li>
-		
+	<ul>		
 		<li ng-repeat="item in terminology.item | filter:query">
-			<div class='terminology-card row'>
-				<span class="col-md-3">{{item.name}}</span>
-				<strong class="col-md-5">{{item.koreanName}}</strong>
+			<div class='terminology-card'>
+				<span class="label">English Term:</span>
+				<span class="secondary-text">{{item.name}}</span>
+				<br />
+				<span class="label">Korean Term:</span>
+				<span class="main-text">{{item.koreanName}}</span>
 			</div>
 		</li>
 	</ul>
